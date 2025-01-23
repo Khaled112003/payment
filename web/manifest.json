@@ -1,6 +1,6 @@
 {
-    "name": "payment",
-    "short_name": "payment",
+    "name": "checkout_payment_ui",
+    "short_name": "checkout_payment_ui",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
