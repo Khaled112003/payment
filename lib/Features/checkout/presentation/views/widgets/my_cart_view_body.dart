@@ -4,7 +4,6 @@ import 'package:checkout_payment_ui/Features/checkout/presentation/views/widgets
 import 'package:checkout_payment_ui/core/widgets/custom_button.dart';
 import 'package:flutter/material.dart';
 
-
 class MyCartViewBody extends StatelessWidget {
   const MyCartViewBody({super.key});
 

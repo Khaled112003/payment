@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'Features/checkout/presentation/views/my_cart_view.dart';
 
 void main() {
-
   runApp(const CheckoutApp());
 }
 
