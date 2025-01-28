@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import 'package:flutter_credit_card/flutter_credit_card.dart';
@@ -32,21 +31,22 @@ class _CustomCreditCardState extends State<CustomCreditCard> {
           onCreditCardWidgetChange: (value) {},
         ),
         CreditCardForm(
-            isHolderNameVisible: true,
-            autovalidateMode: widget.autovalidateMode,
-            cardNumber: cardNumber,
-            expiryDate: expiryDate,
-            cardHolderName: cardHolderName,
-            cvvCode: cvvCode,
-            onCreditCardModelChange: (carditCardModel) {
-              cardHolderName = carditCardModel.cardHolderName;
-              expiryDate = carditCardModel.expiryDate;
-              cvvCode = carditCardModel.cvvCode;
-              cardNumber = carditCardModel.cardNumber;
-              showBackView = carditCardModel.isCvvFocused;
-              setState(() {});
-            },
-            formKey: widget.formKey,),
+          isHolderNameVisible: true,
+          autovalidateMode: widget.autovalidateMode,
+          cardNumber: cardNumber,
+          expiryDate: expiryDate,
+          cardHolderName: cardHolderName,
+          cvvCode: cvvCode,
+          onCreditCardModelChange: (carditCardModel) {
+            cardHolderName = carditCardModel.cardHolderName;
+            expiryDate = carditCardModel.expiryDate;
+            cvvCode = carditCardModel.cvvCode;
+            cardNumber = carditCardModel.cardNumber;
+            showBackView = carditCardModel.isCvvFocused;
+            setState(() {});
+          },
+          formKey: widget.formKey,
+        ),
       ],
     );
   }

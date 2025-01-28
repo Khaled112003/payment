@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-
 class CardInfoWidget extends StatelessWidget {
   const CardInfoWidget({
     super.key,
