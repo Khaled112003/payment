@@ -49,7 +49,8 @@ class StripeService {
     await displayPaymentSheet();
   }
 
-  Future<EmphemeralKeyModel> createEmphemeralKeyModel({required String customerId}) async {
+  Future<EmphemeralKeyModel> createEmphemeralKeyModel(
+      {required String customerId}) async {
     try {
       // Log the customerId for debugging purposes
       print('Creating ephemeral key for customer ID: $customerId');
@@ -81,9 +82,7 @@ class StripeService {
   }
 }
 
-
 // before save card
-
 
 // class StripeService {
 // final ApiService _apiService = ApiService();

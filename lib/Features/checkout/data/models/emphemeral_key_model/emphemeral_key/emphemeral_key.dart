@@ -19,7 +19,8 @@ class EmphemeralKeyModel {
     this.secret,
   });
 
-  factory EmphemeralKeyModel.fromJson(Map<String, dynamic> json) => EmphemeralKeyModel(
+  factory EmphemeralKeyModel.fromJson(Map<String, dynamic> json) =>
+      EmphemeralKeyModel(
         id: json['id']?.toString(),
         object: json['object']?.toString(),
         associatedObjects: (json['associated_objects'] as List<dynamic>?)
